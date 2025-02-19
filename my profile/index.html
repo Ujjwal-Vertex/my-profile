@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | CS Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="typing-animation">&lt;Hey, Welcome to my profile...&gt;</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">&lt;ujjawal kumar&gt;</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item">
+                        <button id="theme-toggle" class="theme-toggle">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i> -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm <span class="highlight">Ujjawal kumar tripathi</span></h1>
+                        <div class="home__subtitle">
+                            <span class="typing">Computer Science Student</span>
+                        </div>
+                        <p class="home__description">Passionate about coding, problem-solving, and creating innovative solutions.</p>
+                        <div class="home__buttons">
+                            <a href="#contact" class="button">Contact Me</a>
+                            <a href="#projects" class="button button--ghost">View Projects</a>
+                        </div>
+                    </div>
+                    <div class="home__img">
+                        <div class="home__blob">
+                            <img src="WhatsApp Image 2025-02-17 at 18.40.15_3926bcb6.jpg" alt="profile image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container container">
+                <div class="about__content">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Computer Science student with a strong foundation in programming and cyber security. Proficient in languages such as Python, Java, and C++. Passionate about coding, problem-solving, and security. Passionate about learning new technologies and creating innovative solutions. i become a problem solver and a coder. I build my career in ethical hacker field . 
+                        </p>
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class="fas fa-code about__icon"></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">2 Years Coding</span>
+                            </div>
+                            <div class="about__box">
+                                <i class="fas fa-laptop-code about__icon"></i>
+                                <h3 class="about__title">Projects</h3>
+                                <span class="about__subtitle">5+ Completed</span>
+                            </div>
+                            <div class="about__box">
+                                <i class="fas fa-award about__icon"></i>
+                                <h3 class="about__title">Awards</h3>
+                                <span class="about__subtitle">5+ Achievements</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <div class="skills__container container">
+                <div class="skills__content">
+                    <div class="skills__box">
+                        <h3 class="skills__title">Programming Languages</h3>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fab fa-python"></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fab fa-java"></i>
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fab fa-js"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fab fa-js"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fab fa-css3-alt"></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <div class="skills__box">
+                        <h3 class="skills__title">Technologies</h3>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fab fa-react"></i>
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fab fa-git-alt"></i>
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-database"></i>
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-server"></i>
+                                <div>
+                                    <h3 class="skills__name">Server</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <div class="projects__container container">
+                <div class="projects__card">
+                    <img src="cal.png" alt="Calculator" class="projects__img">
+                    <div class="projects__modal">
+                        <div>
+                            <h3 class="projects__title">Calculator Project</h3>
+                            <p class="projects__description">Digital calculator using html, css and js</p>
+                            <a href="https://ujjwaltri-calculator.netlify.app/" class="button button--small">View project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__card">
+                    <img src="stop.png" alt="Stopwatch" class="projects__img">
+                    <div class="projects__modal">
+                        <div>
+                            <h3 class="projects__title">Stopwatch Project</h3>
+                            <p class="projects__description">Digital Stopwatch using html, css and js</p>
+                            <a href="https://ujjwaltri-stopwatch.netlify.app/" class="button button--small">View project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img src="tv.png" alt="Travel Go" class="projects__img">
+                    <div class="projects__modal">
+                        <div>
+                            <h3 class="projects__title">Travel Go website</h3>
+                            <p class="projects__description">Travel website fully responsive using html, css and js</p>
+                            <a href="https://ujjwaltri-travel-go.netlify.app/" class="button button--small">View project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img src="Screenshot 2025-02-18 214124.png" alt="My profile" class="projects__img">
+                    <div class="projects__modal">
+                        <div>
+                            <h3 class="projects__title">My profile</h3>
+                            <p class="projects__description">My profile using html, css and js</p>
+                            <a href="https://ujjwaltri-profile.netlify.app/" class="button button--small">View profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img src="ai.png" alt="AI speaker" class="projects__img">
+                    <div class="projects__modal">
+                        <div>
+                            <h3 class="projects__title">AI speaker project</h3>
+                            <p class="projects__description">Ai speaker using html, css and js</p>
+                            <a href="https://ujjwaltri-profile.netlify.app/" class="button button--small">View project</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container">
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fas fa-envelope contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">ujjwal2042005@.com</span>
+                            <a href="mailto:ujjwal2042005@.com" class="contact__button">
+                                Contact us.. <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-github contact__card-icon"></i>
+                            <h3 class="contact__card-title">GitHub</h3>
+                            <span class="contact__card-data">ujjwal kumar tripathi</span>
+                            <a href="https://github.com/ujjwal-vertex" target="_blank" style="font-weight: 500;" class="contact__button">
+                                View Profile <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-linkedin contact__card-icon"></i>
+                            <h3 class="contact__card-title">LinkedIn</h3>
+                            <span class="contact__card-data">Ujjawal Tripathi</span>
+                            <a href="https://www.linkedin.com/in/ujjwal-tripathi-169297333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact__button">
+                                Connect <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-instagram contact__card-icon"></i>
+                            <h3 class="contact__card-title">Instagram</h3>
+                            <span class="contact__card-data">ujjwal Tripathi </span>
+                            <a href="https://www.instagram.com/_ujjwal_tripathi_7?igsh=MXR5YjE4MnRtbHp5Yg==" target="_blank" style="font-weight: 500;" class="contact__button">
+                                View Profile <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-telegram contact__card-icon"></i>
+                            <h3 class="contact__card-title">Telegram</h3>
+                            <span class="contact__card-data">Code_with_ujjawal </span>
+                            <a href="https://t.me/Code_with_ujjawal" target="_blank" style="font-weight: 500;" class="contact__button">
+                                Join Profile <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-facebook contact__card-icon"></i>
+                            <h3 class="contact__card-title">Facebook</h3>
+                            <span class="contact__card-data">Ujjawal Tripathi </span>
+                            <a href="https://www.facebook.com/share/1BeAJUj5Uu/" target="_blank" style="font-weight: 500;" class="contact__button">
+                                view Profile <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">Ujjawal Kumar </span>
+                            <a href="https://wa.me/+91 6201176404" target="_blank" style="font-weight: 500;" class="contact__button">
+                                view Profile <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-youtube contact__card-icon"></i>
+                            <h3 class="contact__card-title">You Tube</h3>   
+                            <span class="contact__card-data">Ujjawal Studio </span>
+                            <a href="https://youtube.com/@ujjwalmusicstudio07" target="_blank" style="font-weight: 500;" class="contact__button">
+                                view Profile <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <h1 class="footer__title">Ujjawal Kumar </h1>
+                <span class="footer__subtitle">Computer Science student</span>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/ujjwal-vertex" class="footer__social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ujjwal-tripathi-169297333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer__social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_ujjwal_tripathi_7?igsh=MXR5YjE4MnRtbHp5Yg==" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@ujjwalmusicstudio07" class="footer__social-link"><i class="fab fa-youtube"></i></a>
+                <a href="https://wa.me/+91 6201176404" class="footer__social-link"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/1BeAJUj5Uu/" class="footer__social-link"><i class="fab fa-facebook"></i></a>
+                <a href="https://t.me/Code_with_ujjawal" class="footer__social-link"><i class="fab fa-telegram></i></a>
+            </div>
+            <br>
+            <br>
+            <p class="footer__copy">&#169; 2025. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
