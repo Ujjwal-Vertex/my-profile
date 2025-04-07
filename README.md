@@ -1,7 +1,7 @@
 # my-profile
 This is a portfollio website. it is responsive for all device. it is create by using html, css, and javascript. 
 # Click here👇
-- [visit this page](https://ujjwaltri-code-editior.netlify.app/)
+- [visit this page](https://ujjwaltri-profile.netlify.app/)
 
 
 
